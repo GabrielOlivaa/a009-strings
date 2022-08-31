@@ -6,4 +6,9 @@ console.log(frase)
 const Nfrase= frase.replace("verde", "rosa").replace("azul", "laranja")
 console.log(Nfrase)
 
+let possuiVerde =Nfrase.includes("verde")
+let possuiLaranja= Nfrase.includes("laranja")
+console.log(`possui a cor verde? ${possuiVerde}
+possui a cor laranja ${possuiLaranja}`)
+
 console.log(Nfrase. replaceAll("mas não deixe o gato sair", "MAS NÃO DEIXE O GATO SAIR"))
